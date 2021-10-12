@@ -1,0 +1,127 @@
+.container img{
+  position: absolute;
+  width: 170px;
+  height: 54px;
+  left: 27px;
+  top: 70px;
+  z-index: var(--z-index-logo);
+}
+
+.navigation {
+    position: fixed;
+    width: 238px;
+    height: 643px;
+    left: 0px;
+    top: 0px;
+    background: #2995D9;
+    transition: transform 0.5s;
+    overflow: hidden;
+}
+
+.navigation ul{
+    position: absolute;
+    top: 323px;
+    left: 0;
+    width: 100%;
+}
+
+.navigation ul li{
+    position: relative;
+    font-family: var(--font-2);
+    width: 83%;
+    list-style: none;
+}
+
+.navigation ul li:nth-child(1){
+    margin-bottom: 40px;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.navigation ul li a{
+    position: relative;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: var(--primary);
+    line-height: 45px;
+    text-align: center;
+}
+
+.options{
+    position: absolute;
+    width: 300px;
+    height: 570px;
+    left: 970px;
+    top: 28px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 0.7em;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.options p{
+  z-index: 1;
+  position: absolute;
+  width: 259px;
+ height: 128px;
+ left: 22px;    
+ top: 28px;
+ font-size: 38px;
+ line-height: 48px;
+ font-family: var(--font-1);
+ color: var(--secondary);
+ text-align: center;
+}
+
+.options ul{
+    position: absolute;
+    top: 223px;
+    left: -15px;
+    width: 100%;
+}
+
+.options ul li{
+    position: relative;
+    font-family: var(--font-2);
+    width: 83%;
+    list-style: none;
+}
+
+.options ul li a{
+    position: relative;
+    display: block;
+    width: 40%;
+    left: 90px;
+    text-decoration: none;
+    color: #000000;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.options ul li a:hover{
+    color: var(--secondary-light);
+}
+
+.day-info{
+    position: absolute;
+    width: 400px;
+    height: 270px;
+    left: 400px;
+    top: 28px;
+
+    border: 1px solid #FFFFFF;
+    border-radius: 0.7em;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.day-info img{
+  position: absolute;
+  width: 75px;
+  height: 74px;
+  left: 327px;
+  top: 116px;
+}
